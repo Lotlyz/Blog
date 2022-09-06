@@ -1,0 +1,32 @@
+.layout{
+    max-width:1480px;
+  }
+
+.aside-content{
+    max-width:300px;
+    min-width:288px;
+}
+.recent-posts{
+    width:auto!important;
+  }
+
+@media screen and (max-width: 900px){
+    .aside-content{
+        max-width:none!important;
+    }
+}
+
+
+/* #archive,#page,#categories,#tag,#link{
+    width:86%;
+}
+#歌单,#视频,#相册,#关于我,#留言板{
+    width:86%;
+} */
+
+
+.archives .aside-content{
+    display: none;
+}
+
+

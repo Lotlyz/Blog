@@ -1,0 +1,92 @@
+/* 全局背景透明渐变 */
+/* #recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
+    background: var(--light_bg_color)
+}
+
+#aside-content .card-widget {
+    background: var(--light_bg_color)
+} */
+
+/* #web_bg {
+    background: linear-gradient(90deg,rgba(247,149,51,.1),rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1))
+} */
+
+/* 背景宇宙星光  */
+#universe{
+    display: block;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  @font-face {
+    font-family: Candyhome;
+    src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/Candyhome.ttf);
+    font-display: swap;
+    font-weight: lighter;
+  }
+  @font-face {
+      font-family: ZhuZiAYuanJWD;
+      src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);
+      font-display: swap;
+      font-weight: lighter;
+    }
+    
+    div#menus {
+      font-family: 'ZhuZiAYuanJWD';
+    }
+    h1#site-title {
+      font-family: ZhuZiAYuanJWD;
+      font-size: 3em !important;
+    }
+    a.article-title,
+    a.blog-slider__title,
+    a.categoryBar-list-link,
+    h1.post-title {
+      font-family: ZhuZiAYuanJWD;
+    }
+    
+    .iconfont {
+      font-family: 'iconfont' !important;
+      font-size: 3em;
+      /* 可以定义图标大小 */
+  
+      font-style: normal;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  
+    /* 导航栏顶栏常驻 */
+  .nav-fixed #nav{
+      transform: translateY(58px)!important;
+      -webkit-transform: translateY(58px)!important;
+      -moz-transform: translateY(58px)!important;
+      -ms-transform: translateY(58px)!important;
+      -o-transform: translateY(58px)!important;
+  }
+  #nav{
+      transition: none!important;
+      -webkit-transition: none!important;
+      -moz-transition: none!important;
+      -ms-transition: none!important;
+      -o-transition: none!important;
+  }
+
+
+/* 博主昵称颜色  */
+/* .author-info__name {
+    color: #000000;
+} */
+
+/* 顶部导航栏  */
+/* #nav a {
+    color: #f9f2f4;
+} */
